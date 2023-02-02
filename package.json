@@ -1,0 +1,37 @@
+{
+    "name": "@ivoyant/custom-cricket-csr-button",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Button",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-cache": "^1.0.0",
+        "@ivoyant/component-loader": "^1.0.39",
+        "@ivoyant/component-message-bus": "^1.0.0",
+        "@ivoyant/custom-cricket-pop-up": "^1.0.0",
+        "@storybook/addon-knobs": "^6.4.0",
+        "@storybook/react": "^6.5.15",
+        "squirrelly": "^8.0.8"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

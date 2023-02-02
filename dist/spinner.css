@@ -1,0 +1,19 @@
+.spinner-container {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.loading-spinner {
+  background-color: #000;
+  width: 84vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 40000;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}

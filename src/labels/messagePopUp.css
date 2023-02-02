@@ -1,0 +1,18 @@
+.checkboxes-cancellation {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ant-checkbox-wrapper.checkboxes {
+    margin: 10px 0 !important;
+}
+
+.checkboxes span:nth-child(2) {
+    width: 100%;
+}
+
+.checkboxes span span {
+    width: 15px !important;
+}
